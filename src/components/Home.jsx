@@ -16,6 +16,7 @@ const brandLogos = [
 ];
 
 export default function CarShowcase(){
+    console.log("HOME RENDERIZADO");
     return (
         <div className="min-h-screen bg-[#fafafa] font-roboto">
             <div className="container mx-auto px-4 py-8">
