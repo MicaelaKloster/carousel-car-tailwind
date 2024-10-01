@@ -14,7 +14,7 @@
 
 //& VERSIÓN 2
 import React from 'react';
-import { ThemeProvider } from '@material-tailwind/react';
+import { ThemeProvider } from "@material-tailwind/react";
 import Home from './components/Home';
 
 function App(){
@@ -24,7 +24,7 @@ function App(){
         <Home />
       </div>
     </ThemeProvider>
-  )
+  );
 }
 
 

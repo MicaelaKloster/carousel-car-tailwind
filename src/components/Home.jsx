@@ -2,30 +2,30 @@ import React from 'react';
 import {Carousel, Typography, Button} from "@material-tailwind/react";
 
 const carBrands = [
-    {name: "Audi", image: "../img/auto-audi.png"},
-    {name: "Ferrari", image: "../img/auto-ferrari.png"},
-    {name: "Tesla", image: "../img/auto-tesla.png"}
+    {name: "Audi", image: "/img/auto-audi.png"},
+    {name: "Ferrari", image: "/img/auto-ferrari.png"},
+    {name: "Tesla", image: "/img/auto-tesla.png"}
 ];
 
 const brandLogos = [
-    {name: "Honda", image: "../img/logo-honda.png"},
-    {name: "Toyota", image: "../img/logo-toyota.png"},
-    {name: "Tesla", image: "../img/logo-tesla.png"},
-    {name: "Ferrari", image: "../img/logo-ferrari.png"},
-    {name: "Audi", image: "../img/logo-audi.png"}
+    {name: "Honda", logo: "/img/logo-honda.png"},
+    {name: "Toyota", logo: "/img/logo-toyota.png"},
+    {name: "Tesla", logo: "/img/logo-tesla.png"},
+    {name: "Ferrari", logo: "/img/logo-ferrari.png"},
+    {name: "Audi", logo: "/img/logo-audi.png"}
 ];
 
-export default function CarShowcase(){
+export default function Home(){
     console.log("HOME RENDERIZADO");
     return (
         <div className="min-h-screen bg-[#fafafa] font-roboto">
             <div className="container mx-auto px-4 py-8">
                 <div className="flex flex-col md:flex-row items-center justify-between mb-8">
                     <div className="mb-6 md:mb-0">
-                        <Typography variant="h1" color="#100e34" className="mb-2">
+                        <Typography variant="h1" color="Infinite Night" className="mb-2">
                             Find Your Dream
                         </Typography>
-                        <Typography variant="h1" color="#A2001D" className="font-bold">
+                        <Typography variant="h1" color="Carmine" className="font-bold">
                             CAR
                         </Typography>
                         <Button
