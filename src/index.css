@@ -1,4 +1,5 @@
-@tailwind base;
+/*! VERSIÓN 1 */
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import 'animate.css';
@@ -15,4 +16,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+
+/*& VERSIÓN 2 */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

@@ -1,27 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-import CarCarousel from './components/CarCarousel';
+//! VERSIÓN 1
+// import logo from './logo.svg';
+// import './App.css';
+// import CarCarousel from './components/CarCarousel';
 
-function App() {
-  return (
-    <div className="App">
-      <CarCarousel />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    </div>
-  );
+// function App() {
+//   return (
+//     <div className="App">
+//       <CarCarousel />
+     
+//     </div>
+//   );
+// }
+
+//& VERSIÓN 2
+import React from 'react';
+import { ThemeProvider } from '@material-tailwind/react';
+import Home from './components/Home';
+
+function App(){
+  return(
+    <ThemeProvider>
+      <div className="App">
+        <Home />
+      </div>
+    </ThemeProvider>
+  )
 }
+
 
 export default App;
